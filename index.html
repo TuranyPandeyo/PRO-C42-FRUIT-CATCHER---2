@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBBL6N2qxfRQpHip5XsD0_5NPKurlQ-6j8",
+    authDomain: "fruit-catcher-c2950.firebaseapp.com",
+    databaseURL: "https://fruit-catcher-c2950-default-rtdb.firebaseio.com",
+    projectId: "fruit-catcher-c2950",
+    storageBucket: "fruit-catcher-c2950.appspot.com",
+    messagingSenderId: "278623525913",
+    appId: "1:278623525913:web:9a5b01399e3af3755f1e88",
+    measurementId: "G-3B9J314YQ2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+  <!--Add Your JS files here -->
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/form.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  *If you click reset button then refresh the page too. Now you can scroll down to play!
+  <script src="sketch.js"></script>
+
+
+</body></html>
